@@ -74,31 +74,31 @@ optimized layout, began to assign a number for functions identification, Split t
 
 **in preparation for a comfortable search and editing program*.
 
-
-
-- **Ansi2Oem()** - using Ansi2Unicode and Unicode2Ansi functions
-- **Oem2Ansi()** - using Ansi2Unicode and Unicode2Ansi functions
-- **Ansi2UTF8()** - using Ansi2Unicode and Unicode2Ansi functions
-- **UTF82Ansi()** - using Ansi2Unicode and Unicode2Ansi functions
-- **FindChildWindow()** - ***new version!*** - If there was no title or text for the childwindow, the returned value was empty, so this function can handle now a new search parameter  -Class or ClassNN-
-- **StdoutToVar_CreateProcess()** - Runs a command line program and returns its output
-- **DNSQuery()** - retrieve IP adresses or host/domain names from DNS
-- **CreateDIB()** - a wonderfull function by SKAN to draw tiled backgrounds (like chess pattern) to a gui, it can also draw gradients
-- **GuiControlLoadImage()** - scale down a picture to fit the given width and height of a picture control
-- **Gdip_ResizeBitmap()** - returns resized bitmap
-- **Gdip_CropBitmap()** - returns cropped bitmap. Specify how many pixels you want to crop (omit) from each side of bitmap rectangle
-- **FontClone()** - backup hFont in memory for further processing
-- **GuiDefaultFont()** - returns the default Fontname & Fontsize
-- **DateDiff()** - returns the difference between two timestamps in the specified units
-- **ObjectNameChange()** - titlebar hook to detect when title changes, (Lexikos’ code)
-- **StrGetDimAvgCharWidth()** - average width of a character in pixels
-- **BlockKeyboard()** - block keyboard, and unblock it through usage of keyboard
-- **GetFileFormat()** - retreaves the codepage format of a file
-- **RunUTF8()** - if a .exe file really requires its command line to be encoded as UTF-8, the following might work (a lexikos function)
-- **Is64bitProcess()** - check if a process is running in 64bit
-- **getSessionId()** - this functions finds out ID of current session
-- **SetTrayIcon()** - sets a hex coded icon to as try icon
-- **HashFile()** - calculate hashes (MD2,MD5,SH1,SHA256, SHA384, SHA512) from file ;23
+| **FUNCTION**                  | **DESCRIPTION**                                              |
+| :---------------------------- | :----------------------------------------------------------- |
+| **Ansi2Oem()**|using Ansi2Unicode and Unicode2Ansi functions
+| **Oem2Ansi()**|using Ansi2Unicode and Unicode2Ansi functions
+| **Ansi2UTF8()**|using Ansi2Unicode and Unicode2Ansi functions
+| **UTF82Ansi()**|using Ansi2Unicode and Unicode2Ansi functions
+| **FindChildWindow()**|***new version!***|If there was no title or text for the childwindow, the returned value was empty, so this function can handle now a new search parameter  -Class or ClassNN-
+| **StdoutToVar_CreateProcess()**|Runs a command line program and returns its output
+| **DNSQuery()**|retrieve IP adresses or host/domain names from DNS
+| **CreateDIB()**|a wonderfull function by SKAN to draw tiled backgrounds (like chess pattern) to a gui, it can also draw gradients
+| **GuiControlLoadImage()**|scale down a picture to fit the given width and height of a picture control
+| **Gdip_ResizeBitmap()**|returns resized bitmap
+| **Gdip_CropBitmap()**|returns cropped bitmap. Specify how many pixels you want to crop (omit) from each side of bitmap rectangle
+| **FontClone()**|backup hFont in memory for further processing
+| **GuiDefaultFont()**|returns the default Fontname & Fontsize
+| **DateDiff()**|returns the difference between two timestamps in the specified units
+| **ObjectNameChange()**|titlebar hook to detect when title changes, (Lexikos’ code)
+| **StrGetDimAvgCharWidth()**|average width of a character in pixels
+| **BlockKeyboard()**|block keyboard, and unblock it through usage of keyboard
+| **GetFileFormat()**|retreaves the codepage format of a file
+| **RunUTF8()**|if a .exe file really requires its command line to be encoded as UTF-8, the following might work (a lexikos function)
+| **Is64bitProcess()**|check if a process is running in 64bit
+| **getSessionId()**|this functions finds out ID of current session
+| **SetTrayIcon()**|sets a hex coded icon to as try icon
+| **HashFile()**|calculate hashes (MD2,MD5,SH1,SHA256, SHA384, SHA512) from file ;23
 
 
 
@@ -106,15 +106,15 @@ optimized layout, began to assign a number for functions identification, Split t
 
 ### **functions for controls** (10)
 
-- **ControlGetClassNN()** - different method is used here in compare to the already existing functions in this collection
-- **FocusedControl()** - returns the HWND of the currently focused control, or 0 if there was a problem**
-- **GetClassName()** - returns HWND‘s class name without its instance number, e.g. “Edit” or “SysListView32”
-- **ControlSelectTab()** - SendMessage wrapper to select the current tab on a MS Tab Control.
-- **ClickOK()** - function that search for any button in a window that might be an ‘Ok’ button to close a window dialog
-- 4 different **AddToolTip() functions** - very easy to use function to add a tooltip to a control
-- **Control_GetFont()** - retrieves the used font of a control
-
-
+| **FUNCTION**                  | **DESCRIPTION**                                              |
+| :---------------------------- | :----------------------------------------------------------- |
+| **ControlGetClassNN()**|different method is used here in compare to the already existing functions in this collection
+| **FocusedControl()**|returns the HWND of the currently focused control, or 0 if there was a problem**
+| **GetClassName()**|returns HWND‘s class name without its instance number, e.g. “Edit” or “SysListView32”
+| **ControlSelectTab()**|SendMessage wrapper to select the current tab on a MS Tab Control.
+| **ClickOK()**|function that search for any button in a window that might be an ‘Ok’ button to close a window dialog
+| 4 different **AddToolTip() functions**|very easy to use function to add a tooltip to a control
+| **Control_GetFont()**|retrieves the used font of a control
 
 ### **networking and Internet** (9)
 
